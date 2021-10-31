@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SSEC | Code Club | Gigabytes</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/Untitled-11.jpg" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events & Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <!--<li><a href="">Contact</a></li>-->
+            </ul>
+        </nav>
+     <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+ 
+<!-------------------testimonial--------------->
+ <div class="testimonial">
+    <div class="small-container">
+        <h2 class="title">Testimonials</h2>
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/testi1.png">
+          <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/testi2.png">
+          <h3>Mike Hussey</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/testi3.jpg">
+          <h3>Mabel Joe</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<!----------footer--------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3><b>Code Club App is coming soon</b></h3>
+        <div class="app-logo">
+          <img src="images/play-store.png">
+          <img src="images/app-store.png">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="images/Untitled-11.jpg">
+        <h3><b>Ruby is rubbish! PHP is phpantastic!</b></h3>
+      </div>
+      <div class="footer-col-3">
+        <h3><b>CONTACT US</b></h3>
+        <ul>
+          <li>Head : 9856748260</li>
+          <li>Co-Ordinator : 7958597292</li>
+          <li>Chair : 638954268</li>
+          <li>Vice Chair : 8489951369</li>
+        </ul>
+      </div>
+      <div class="footer-col-3">
+        <h3>Follow us<b></b></h3>
+        <ul>
+          <li><a href="codeclubssec@gmail.com"><b>Email ID</b>b></a></li>
+          <li><a href="https://www.facebook.com/sairam.codeclub">Facebook</a></li>
+          <li><a href="https://instagram.com/sairam_codeclub?utm_medium=copy_link">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2021 - Gigabyte</p>
+  </div>
+</div>  
+<!-----------Js for toggle menu---------------->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px"){
+        MenuItems.style.maxHeight = "200px"
+      }
+      else
+      {
+        MenuItems.style.maxHeight = "0px"
+      }
+    }
+  </script>
+
+</body>
+</html>
