@@ -224,10 +224,6 @@ small{
     width: 180px;
     margin-bottom: 20px;
 }
-.footer-col-3, .footer-col-4{
-	flex-basis: 12%;
-	text-align: center;
-}
 ul{
 	list-style-type: none;
 }
